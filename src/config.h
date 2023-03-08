@@ -1,4 +1,6 @@
-
+/**
+ * Author: isold.wang@gmail.com
+ */
 #ifndef _CONFIG_H_
 #define _CONFIG_H_
 
