@@ -1,3 +1,6 @@
+/**
+ * Author: isold.wang@gmail.com
+ */
 #ifndef _ZOOKEEPER_LOCK_H_
 #define _ZOOKEEPER_LOCK_H_
 
