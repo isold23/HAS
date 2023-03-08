@@ -1,3 +1,6 @@
+/**
+ * Author: isold.wang@gmail.com
+ */
 #include "config.h"
 
 bool CConfig::parse_value(const char* key, const char* value)
