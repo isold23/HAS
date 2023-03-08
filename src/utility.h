@@ -1,7 +1,5 @@
 /**
- * Copyright (c) 2016
- * Copyright Owner: Biztech
- * Author: bizbase_bill@sogou-inc.com
+ * Author: isold.wang@gmail.com
  */
 
 #include <iostream>
