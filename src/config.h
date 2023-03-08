@@ -2,11 +2,6 @@
 #ifndef _CONFIG_H_
 #define _CONFIG_H_
 
-#include <base/utility/logger.h>
-#include <base/utility/message.h>
-using Biz::Logger;
-using Biz::message;
-
 #include "include.h"
 #include "configure.h"
 
