@@ -1,3 +1,6 @@
+/**
+ * Author: isold.wang@gmail.com
+ */
 #include <sys/select.h>
 #include "utility.h"
 #include "zk_lock.h"
