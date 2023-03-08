@@ -1,3 +1,6 @@
+/**
+ * Author: isold.wang@gmail.com
+ */
 #include <stdio.h>
 #include <iostream>
 #include <string>
