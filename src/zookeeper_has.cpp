@@ -93,9 +93,6 @@ int main(int argc, char* argv[])
             }
         }
     }
-    
-    //goDebugTrace = new CDebugTrace;
-    //uint32_t process_id = CCommon::GetProcessId();
     char lszLogFileName[255];
     memset(lszLogFileName, 0, 255);
     
@@ -115,17 +112,6 @@ int main(int argc, char* argv[])
         memcpy(lszLogFileName, arg.log_path.c_str(), arg.log_path.length());
     }
     
-    /*
-    char lszFileDate[50];
-    memset(lszFileDate, 0, 50);
-    sprintf(lszFileDate, "//%s-%u", gstrProgramName.c_str(), process_id);
-    strcat(lszLogFileName, lszFileDate);
-    SET_LOG_FILENAME(lszLogFileName);
-    SET_TRACE_LEVEL(5);
-    TRACE(3, "\n\n*******************" << gstrProgramName << " version:" <<
-          gstrProgramVersion.c_str() << "*******************");
-    TRACE(3, "configure file name : " << arg.config_name.c_str());
-    */
     struct sigaction sig;
     memset(&sig, 0, sizeof(struct sigaction));
     sig.sa_handler = si_handler;
@@ -161,7 +147,6 @@ int main(int argc, char* argv[])
     }
     
     while(g_is_running) {
-        LOG_DEBUG("------------------------------------");
         int ret = lock.run();
         
         if(ret != 0) {
