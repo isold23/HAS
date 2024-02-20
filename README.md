@@ -19,3 +19,8 @@ has(high availability service)， 基于zookeeper开发的有状态服务的高�
 
 ### 无依赖服务
 
+
+# 应用
+
+HAS超时配置要大于业务服务停止时间， 否则有可能出现脑裂问题。
+
