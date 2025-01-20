@@ -4,6 +4,8 @@ has(high availability service)， 基于zookeeper开发的有状态服务的高�
 
 # 系统架构
 
+<img width="1078" alt="image" src="https://github.com/user-attachments/assets/db4cf61a-953b-4b69-8691-f9042c1cbe5b" />
+
 ## 常驻内存服务（7*24）
 业务服务需要提供7*24小时不间断业务功能支持， 当出现硬件或者软件故障的情况下， 服务可以在秒级的时间内完成新服务的启动，充分保证服务的高可用。
 
